@@ -1,9 +1,11 @@
-This paper has been accepted to ICML 2026 as a Spotlight.
-<h2 align="center"> <a href="https://icml.cc/virtual/2026/poster/63057">GFD-EMVC: Evolutionary Multi-View Classification with Label Noise via Gradient and Feature Dual-Perception</a></h2>
+This paper has been accepted to IEEE Transactions on Evolutionary Computation (TEVC) 2026.
+<h2 align="center"> <a href="https://ieeexplore.ieee.org/document/11744410">EvoAMC: Evolutionary Fusion with Knowledge Learning for Automatic Modulation Classification</a></h2>
 <div align="center">
-Shuai Li<sup>1</sup>, Xinyan Liang<sup>1*</sup>, Yuhua Qian<sup>1</sup>, Li Lv<sup>1</sup>
+Xinyan Liang<sup>1</sup>, Xin Tang<sup>1</sup>, Dongning Li<sup>1</sup>, Yuhua Qian<sup>1</sup>, Jinpeng Yuan<sup>1</sup>, Ke Tang<sup>1</sup>, Linjie Zhan<sup>1</sup>, Yaohui Zheng<sup>1</sup>
 <sup>1</sup>Institute of Big Data Science and Industry, Key Laboratory of Evolutionary Science Intelligence of Shanxi Province, School of Artificial Intelligence, Shanxi University<br>
-
+<sup>2</sup>Institute of Laser Spectroscopy, State Key Laboratory of Quantum Optics Technologies and Devices, Collaborative Innovation Center of Extreme Optics, Shanxi University<br>
+<sup>3</sup>Key Laboratory of Brain-Inspired Intelligent Computation, Department of Computer Science and Engineering, Southern University of Science and Technology, Shenzhen<br>
+<sup>4</sup>State Key Laboratory of Quantum Optics Technologies and Devices, Institute of Opto-Electronics, Shanxi University<br>
 <a href='https://icml.cc/virtual/2026/poster/63057'><img src='https://img.shields.io/badge/ICML%202026-Spotlight-blue'></a> 
 </div>
 
