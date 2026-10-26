@@ -8,7 +8,7 @@ Xinyan Liang<sup>1</sup>, Xin Tang<sup>1</sup>, Dongning Li<sup>1</sup>, Yuhua Q
 <sup>3</sup>Key Laboratory of Brain-Inspired Intelligent Computation, Department of Computer Science and Engineering, Southern University of Science and Technology, Shenzhen<br>
 <sup>4</sup>State Key Laboratory of Quantum Optics Technologies and Devices, Institute of Opto-Electronics, Shanxi University<br>
 
-<a href='https://icml.cc/virtual/2026/poster/63057'><img src='https://img.shields.io/badge/ICML%202026-Spotlight-blue'></a> 
+<a href='https://ieeexplore.ieee.org/document/11744410'><img src='https://img.shields.io/badge/TEVC%202026-blue'></a> 
 </div>
 
 ## Abstract
