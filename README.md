@@ -11,23 +11,18 @@ Xinyan Liang<sup>1</sup>, Xin Tang<sup>1</sup>, Dongning Li<sup>1</sup>, Yuhua Q
 </div>
 
 Abstract
-This paper studies a fundamental yet often overlooked premise in evolutionary multi-view classification (EMVC): the impact of label noise on EMVC, such as distorting fitness landscapes shaped by individual fitness values (e.g., test accuracy).
-Traditional EMVC assumes training labels are noise-free, yet this often fails in practice.
-As a result, label noise introduces harmful supervision during the training phase, resulting in distorted fitness landscapes and the emergence of fitness evaluation bias (FEB). This bias misguides the evolutionary trajectory, causing the search process to stagnate in local optima.
-Given that label noise largely stems from the mislabeling of samples near their decision boundaries by human annotators, we thus compared the decision boundaries of human annotators and models, and found discrepancies between the two. Based on this observation, we propose a simple yet effective ``detect-then-calibrate" data purification framework that leverages outlier analysis in the gradient space (i.e., treating outliers as noisy samples) and prototype calibration in the feature space (i.e., utilizing feature prototypes of noise-free samples to correct the labels of noisy samples).
-Experimental results demonstrate that this strategy can effectively purify the data and alleviate FEB; furthermore, it can improve the performance of various multi-view learning paradigms in label noise scenarios.
+Automatic Modulation Classification (AMC) plays a critical role in spectrum sensing and cognitive radio. Although deep learning has greatly advanced AMC, most methods still struggle under low signal-to-noise ratio (SNR) conditions. Multi-view fusion provides complementary information for more robust signal classification, yet existing approaches typically rely on fixed, task-independent fusion strategies. Evolutionary fusion can automatically explore fusion strategies, but it often produces candidate individuals whose quality is highly uneven, leading to unnecessary computational cost on low-value  fusion strategies. To address these limitations, we propose EvoAMC, an evolutionary fusion with knowledge learning method for AMC. EvoAMC produces multiple candidate offspring in each iteration, allowing the search to explore more possible fusion structures. We also utilize a Graph Convolutional Network (GCN)-based knowledge library model, which mines historical architecture-performance knowledge and transfers it across generations, to filter out unpromising candidates before training and guide the evolutionary process.
+Experiments show that EvoAMC achieves better accuracy under low-SNR conditions and a smaller parameter size, outperforming compared multi-view methods in both effectiveness and efficiency.
 🏗️Model
 <div align="center">
   <img src="model.png" />
 </div>
 
 🖥️ Computing Environment
-The computing environment includes Ubuntu 24.04.2 LTS as the operating system, equipped with an AMD EPYC processor with 160 physical cores (320 logical threads), 566 GB of DDR4 memory, and 8 NVIDIA GeForce RTX 5090 GPUs, each with 32 GB of VRAM.
+The computing environment includes Ubuntu 20.04.6 LTS, equipped with two AMD EPYC 7763 processors providing 128 physical cores and 256 logical threads, approximately 503 GiB of system memory, and eight NVIDIA GeForce RTX 4090 GPUs with approximately 24 GB of VRAM each.
 
 🧪 Experimental Setup
-In our experiments,
-For the label noise learning comparison experiments, to ensure consistency with existing methods, we implement all experiments using the PyTorch framework (PyTorch 2.8.0+cu128, Python 3.10.18, CUDA 12.8).
-For the multi-view learning comparison experiments, we implement all experiments using TensorFlow framework (TensorFlow 2.10.0 GPU, Python 3.9.23, CUDA 11.2).
+PyTorch 2.6.0+cu118, Python 3.12.7, CUDA 11.8.
 
 🎞️Experiment
 In this experiment, we aim to verify whether the proposed method can effectively purify the data and alleviate the FEB problem.
