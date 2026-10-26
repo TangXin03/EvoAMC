@@ -37,7 +37,7 @@ We used three AMC datasets in this experiment:
 
 
 
-#### 1.2 CIFAR-10 Datasets
+### 2 CIFAR-10 Datasets
 The CIFAR-10 datasets used in this work can be downloaded from https://www.cs.toronto.edu/~kriz/cifar.html.
 
 
