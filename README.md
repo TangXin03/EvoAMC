@@ -28,7 +28,7 @@ PyTorch 2.6.0+cu118, Python 3.12.7, CUDA 11.8.
 ## 🎞️Experiment
 In this experiment, we aim to verify whether the proposed method can effectively purify the data and alleviate the FEB problem.
 ### 1 AMC datasets
-We used five multi-view datasets in this experiment:
+We used three AMC datasets in this experiment:
 
 | Datasets            | Dataset URL                                            |    Password      | 
 |---------------------|--------------------------------------------------------|------------------|
