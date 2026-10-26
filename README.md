@@ -49,7 +49,7 @@ If you find this repository useful, please cite our paper:
 @ARTICLE{11744410,
   author={Liang, Xinyan and Tang, Xin and Li, Dongning and Qian, Yuhua and Yuan, Jinpeng and Tang, Ke and Zhang, Linjie and Zheng, Yaohui},
   journal={IEEE Transactions on Evolutionary Computation}, 
-  title={EvoAMC: Evolutionary Fusion with Knowledge Learning for Automatic Modulation Classification}, 
+  title={{EvoAMC}: Evolutionary Fusion with Knowledge Learning for Automatic Modulation Classification}, 
   year={2026},
   volume={},
   number={},
@@ -78,3 +78,5 @@ We list below the works most relevant to this paper, including but not limited t
 - Robust distributed Rydberg sensing under heterogeneous noise via evidential multi-view learning,  _IF27_, [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S1566253526005956)
 <!-- ## 🙏 Acknowledgement -->
 
+## 📬Contact
+If you have any detailed questions or suggestions, you can email us: [tangxin3120@163.com](mailto:tangxin3120@163.com)
